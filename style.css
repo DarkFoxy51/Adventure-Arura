@@ -1,0 +1,34 @@
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
+
+body {
+    background-color: #b4869f;
+    color: white;
+    font-family: "Handjet", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #4E4C67;
+    color: white;
+    font-family: "Handjet", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
